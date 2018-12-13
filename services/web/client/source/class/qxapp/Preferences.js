@@ -48,7 +48,11 @@ qx.Class.define("qxapp.Preferences", {
         spacing: 10,
         alignX: "center"
       }));
-
+      page.getChildControl("button").set({
+        iconPosition: "top",
+        center: true,
+        paddingRight: 20
+      });
       // title
       page.add(new qx.ui.basic.Label("<h3>" + name + " " + this.tr("Settings") + "</h3>").set({
         rich: true
