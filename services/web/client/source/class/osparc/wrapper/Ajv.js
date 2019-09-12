@@ -8,6 +8,14 @@
 /* eslint new-cap: [2, {capIsNewExceptions: ["Ajv"]}] */
 
 /* global Ajv */
+/* @ignore(Ajv) */
+/* @ignore(exports) */
+/* @ignore(global) */
+/* @ignore(_typeof) */
+/* @ignore(module) */
+/* @ignore(define) */
+/* @ignore(self) */
+/* @ignore(require) */
 
 /**
  * A qooxdoo wrapper for

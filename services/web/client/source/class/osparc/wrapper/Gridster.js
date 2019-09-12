@@ -20,6 +20,7 @@
  */
 
 /* global $ */
+/* @ignore($) */
 
 /**
  * A qooxdoo wrapper for

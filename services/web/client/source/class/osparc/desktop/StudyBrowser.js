@@ -564,8 +564,8 @@ qx.Class.define("osparc.desktop.StudyBrowser", {
         appearance: "service-window"
       });
 
-      const message = `Are you sure you want to delete the ${isMulti ? "studies" : "study"}?`;
-      const text = new qx.ui.basic.Label(this.tr(message));
+      const message = this.trn("Are you sure you want to delete the study", "Are you sure you want to delete the studies", isMulti ? 2 : 1);
+      const text = new qx.ui.basic.Label(message);
       win.add(text);
 
       let buttons = new qx.ui.container.Composite(new qx.ui.layout.HBox(10, "right"));
